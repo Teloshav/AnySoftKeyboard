@@ -31,7 +31,73 @@
         android:key="@string/settings_key_show_chewbacca" android:persistent="true"
         android:summaryOff="@string/show_crash_notification_off_summary"
         android:summaryOn="@string/show_crash_notification_on_summary"
-        android:title="@string/show_crash_notification" />
+        android:title="Testing time! :D" />
+        // android:title="@string/show_crash_notification" />
+
+    <androidx.preference.CheckBoxPreference
+        android:defaultValue="@bool/settings_default_show_chewbacca"
+        android:key="@string/settings_key_show_chewbacca" android:persistent="true"
+        android:summaryOff="@string/show_crash_notification_off_summary"
+        android:summaryOn="@string/show_crash_notification_on_summary"
+        android:title="Testing time! :D" />
+
+    <androidx.preference.CheckBoxPreference
+        android:defaultValue="@bool/settings_default_show_chewbacca"
+        android:key="@string/settings_key_show_chewbacca" android:persistent="true"
+        android:summaryOff="@string/show_crash_notification_off_summary"
+        android:summaryOn="@string/show_crash_notification_on_summary"
+        android:title="Testing time! :D" />
+
+    <androidx.preference.CheckBoxPreference
+        android:defaultValue="@bool/settings_default_show_chewbacca"
+        android:key="@string/settings_key_show_chewbacca" android:persistent="true"
+        android:summaryOff="@string/show_crash_notification_off_summary"
+        android:summaryOn="@string/show_crash_notification_on_summary"
+        android:title="Testing time! :D" />
+
+    <androidx.preference.CheckBoxPreference
+        android:defaultValue="@bool/settings_default_show_chewbacca"
+        android:key="@string/settings_key_show_chewbacca" android:persistent="true"
+        android:summaryOff="@string/show_crash_notification_off_summary"
+        android:summaryOn="@string/show_crash_notification_on_summary"
+        android:title="Testing time! :D" />
+
+    <androidx.preference.CheckBoxPreference
+        android:defaultValue="@bool/settings_default_show_chewbacca"
+        android:key="@string/settings_key_show_chewbacca" android:persistent="true"
+        android:summaryOff="@string/show_crash_notification_off_summary"
+        android:summaryOn="@string/show_crash_notification_on_summary"
+        android:title="Testing time! :D" />
+
+    <androidx.preference.CheckBoxPreference
+        android:defaultValue="@bool/settings_default_show_chewbacca"
+        android:key="@string/settings_key_show_chewbacca" android:persistent="true"
+        android:summaryOff="@string/show_crash_notification_off_summary"
+        android:summaryOn="@string/show_crash_notification_on_summary"
+        android:title="Testing time! :D" />
+
+    <androidx.preference.CheckBoxPreference
+        android:defaultValue="@bool/settings_default_show_chewbacca"
+        android:key="@string/settings_key_show_chewbacca" android:persistent="true"
+        android:summaryOff="@string/show_crash_notification_off_summary"
+        android:summaryOn="@string/show_crash_notification_on_summary"
+        android:title="Testing time! :D" />
+
+    <androidx.preference.CheckBoxPreference
+        android:defaultValue="@bool/settings_default_show_chewbacca"
+        android:key="@string/settings_key_show_chewbacca" android:persistent="true"
+        android:summaryOff="@string/show_crash_notification_off_summary"
+        android:summaryOn="@string/show_crash_notification_on_summary"
+        android:title="Testing time! :D" />
+
+    <androidx.preference.CheckBoxPreference
+        android:defaultValue="@bool/settings_default_show_chewbacca"
+        android:key="@string/settings_key_show_chewbacca" android:persistent="true"
+        android:summaryOff="@string/show_crash_notification_off_summary"
+        android:summaryOn="@string/show_crash_notification_on_summary"
+        android:title="Testing time! :D" />
+
+
 
     <Preference android:key="dev_tools"
         android:summary="@string/click_for_developer_features_summary"
