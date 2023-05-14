@@ -32,7 +32,7 @@
         android:summaryOff="@string/show_crash_notification_off_summary"
         android:summaryOn="@string/show_crash_notification_on_summary"
         android:title="Testing time! :D" />
-        // android:title="@string/show_crash_notification" />
+        <!-- android:title="@string/show_crash_notification" /> -->
 
     <androidx.preference.CheckBoxPreference
         android:defaultValue="@bool/settings_default_show_chewbacca"
@@ -40,7 +40,7 @@
         android:summaryOff="@string/show_crash_notification_off_summary"
         android:summaryOn="@string/show_crash_notification_on_summary"
         android:title="Testing time! :D"
-        android:enabled="false"/>
+        android:dependency="nothing"/>
         <!-- android:enabled="@bool/experimentation"/>   <! Trying to see what happens if
         I can change this setting to be disabled -->
 
@@ -49,6 +49,7 @@
         android:key="nothing" android:persistent="true"
         android:summaryOff="Shhh..."
         android:summaryOn="Look at me!"
+        android:disableDependentsState="true"
         android:title="Testing time! :D" />
 
 

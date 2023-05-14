@@ -27,6 +27,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.NavigationUI;
+
 import com.anysoftkeyboard.android.PermissionRequestHelper;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.menny.android.anysoftkeyboard.R;
@@ -52,6 +53,7 @@ public class MainSettingsActivity extends AppCompatActivity {
       activity.setTitle(title);
     }
   }
+
 
   @Override
   protected void onCreate(Bundle icicle) {

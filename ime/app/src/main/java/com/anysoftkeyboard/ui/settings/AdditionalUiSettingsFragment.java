@@ -29,6 +29,7 @@ import androidx.navigation.Navigation;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import com.anysoftkeyboard.addons.AddOnsFactory;
+import com.anysoftkeyboard.base.utils.Logger;
 import com.anysoftkeyboard.keyboardextensions.KeyboardExtension;
 import com.anysoftkeyboard.keyboards.AnyKeyboard;
 import com.anysoftkeyboard.keyboards.Keyboard;
@@ -46,6 +47,7 @@ public class AdditionalUiSettingsFragment extends PreferenceFragmentCompat
   @Override
   public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
     addPreferencesFromResource(R.xml.prefs_addtional_ui_addons_prefs);
+
   }
 
   @Override

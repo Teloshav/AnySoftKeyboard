@@ -33,6 +33,8 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.util.Pair;
 import androidx.multidex.MultiDexApplication;
+import androidx.preference.CheckBoxPreference;
+
 import com.anysoftkeyboard.AnySoftKeyboard;
 import com.anysoftkeyboard.addons.AddOnsFactory;
 import com.anysoftkeyboard.android.NightMode;
@@ -191,6 +193,7 @@ public class AnyApplication extends MultiDexApplication {
     mExtensionKeyboardFactory = createToolsKeyboardExtensionFactory();
     mKeyboardThemeFactory = createKeyboardThemeFactory();
     mQuickTextKeyFactory = createQuickTextKeyFactory();
+
 
     mCompositeDisposable.add(
         mRxSharedPrefs
